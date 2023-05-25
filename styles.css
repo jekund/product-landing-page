@@ -1,0 +1,182 @@
+@media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+}
+  
+body{
+    font-family: Verdana, sans-serif;
+    background-color: #191E29;
+    color: #e1e8f5;
+}
+  
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #0B0E14;
+}
+  
+#logo {
+    display: flex;
+    align-items: left;
+    position: fixed;
+    left: 10px;
+}
+  
+#header-img {
+    position: fixed;
+    width: 100px;
+    height: auto;
+    top: -15px;
+}
+  
+#logo-name {
+    font-family: fantasy, sans-serif;
+    font-size: 14px;
+    position: fixed;
+    left: 110px;
+    top: 12px;
+    color: #e1e8f5;
+}
+  
+#logo-name2 {
+    font-family: fantasy, sans-serif;
+    font-size: 40px;
+    position: fixed;
+    left: 110px;
+    top: 20px;
+    color: #e1e8f5;
+}
+  
+ul {
+    position: fixed;
+    top: -5px;
+    width: 50vw;
+    right: 20px;
+    list-style-type: none;
+}
+  
+.nav-link {
+    text-decoration: none;
+    float: right;
+    color: #e1e8f5;
+    padding: 15px;
+}
+  
+.nav-link:hover {
+    background-color: #6f6f6f;
+}
+  
+main {
+    padding-top: 100px
+}
+  
+h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+  
+span {
+    font-weight: bold;
+}
+  
+iframe {
+    max-width: 560px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+  
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+  
+input, button {
+    margin-top: 10px;
+}
+  
+#shop {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+  
+#product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25vw;
+    margin: 15px auto;
+}
+  
+#products img {
+    height: auto;
+    object-fit: cover;
+    width: 25vw;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+  
+footer {
+    margin-top: 20px;
+    height: 50px;
+    width: 100vw;
+    background-color: #0B0E14;
+}
+  
+#copyright {
+    position: absolute;
+    right: 10px;
+    padding-top: 15px;
+}
+  
+@media (max-width: 650px) {
+  
+    #header {
+      height: 110px;
+    }
+  
+    ul {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .nav-link {
+      padding: 5px;
+    }
+  
+    #header-img {
+      top: 5px;
+    }
+  
+    #logo-name {
+      top: 30px;
+    }
+  
+    #logo-name2 {
+      top: 40px;
+    }
+  
+    #shop {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    #product {
+      width: 70%
+    }
+  
+    #products img {
+      width: 40vw;
+    }
+  
+}
