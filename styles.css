@@ -23,35 +23,10 @@ body{
 }
   
 #logo {
-    display: flex;
-    align-items: left;
     position: fixed;
     left: 10px;
-}
-  
-#header-img {
-    position: fixed;
-    width: 100px;
+    width: 180px;
     height: auto;
-    top: -15px;
-}
-  
-#logo-name {
-    font-family: fantasy, sans-serif;
-    font-size: 14px;
-    position: fixed;
-    left: 110px;
-    top: 12px;
-    color: #e1e8f5;
-}
-  
-#logo-name2 {
-    font-family: fantasy, sans-serif;
-    font-size: 40px;
-    position: fixed;
-    left: 110px;
-    top: 20px;
-    color: #e1e8f5;
 }
   
 ul {
@@ -85,7 +60,7 @@ h2 {
 span {
     font-weight: bold;
 }
-  
+
 iframe {
     max-width: 560px;
     width: 100%;
@@ -152,18 +127,6 @@ footer {
   
     .nav-link {
       padding: 5px;
-    }
-  
-    #header-img {
-      top: 5px;
-    }
-  
-    #logo-name {
-      top: 30px;
-    }
-  
-    #logo-name2 {
-      top: 40px;
     }
   
     #shop {
